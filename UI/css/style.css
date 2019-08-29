@@ -4,8 +4,8 @@ body {
     margin: 0;
     background: #fff;
     letter-spacing: 1px;
-    font-family: 'Poppins', sans-serif;
-}
+    font-family: 'Prompt', sans-serif;
+    }
 
 body a {
     outline: none;
@@ -38,7 +38,7 @@ input[type="submit"] {
     -o-transition: 0.5s all;
     -ms-transition: 0.5s all;
     letter-spacing: 1px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Prompt', sans-serif;
 }
 
 h1,
@@ -49,7 +49,8 @@ h5,
 h6 {
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Prompt', sans-serif;
+   
     letter-spacing: 1px;
 }
 
@@ -57,7 +58,8 @@ p {
     margin: 0;
     padding: 0;
     letter-spacing: 1px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    
 }
 
 ul {
@@ -456,7 +458,7 @@ background: url(../images/a1.jpg)no-repeat center;
 /*--service-- */
 
 .services {
-    background: url(../images/truck-2.jpg)no-repeat center;
+    background: url(../images/analysis.jpg)no-repeat center;
     background-size: cover;
 }
 
@@ -495,7 +497,7 @@ span.banner-icon {
 }
 
 .agileits-banner-grid h3 {
-    font-size:18px;
+    font-size:24px;
     margin: 1em 0 0;
     color: rgb(255, 255, 255);
     font-weight: 600;
@@ -511,7 +513,7 @@ span.banner-icon {
     -o-transition: 0.5s all;
     -ms-transition: 0.5s all;
     background-color: #000;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 .agileits-banner-grid p {
@@ -656,6 +658,11 @@ padding:0px}
 
 /*-- contact --*/
 
+.contact {
+    background-image: url(../images/contact-us.gif);
+    background-size: cover;
+}
+
 .contact-top {
     border: 2px solid rgb(0, 0, 0);
     background: rgb(0, 0, 0);
@@ -679,11 +686,15 @@ padding:0px}
     padding-right: 0px;
 }
 
+.truck-type option {
+    font-weight:normal;
+}
+
 .form-left {
     padding-left: 0;
 }
 
-.contact input[type="text"],
+.truck-type, .contact input[type="text"],
 input[type="email"] {
     width: 100%;
     color: #000;
@@ -691,8 +702,8 @@ input[type="email"] {
     outline: none;
     font-size: 16px;
     padding: .8em 1em;
-    margin-bottom: 2em;
-    border: solid 2px #3798df;
+    margin-bottom: 1em;
+    border: solid 1px #3798df;
     -webkit-appearance: none;
     display: inline-block;
     transition: all 0.5s ease-in-out;
@@ -723,7 +734,7 @@ input[type="email"] {
 }
 
 .contact textarea {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Prompt', sans-serif;
     resize: none;
     width: 100%;
     background: rgba(255, 255, 255, 0.55);
@@ -731,8 +742,45 @@ input[type="email"] {
     font-size: 16px;
     outline: none;
     padding: .6em 1em;
-    border: solid 2px #3798df;
-    min-height: 15em;
+    border: solid 1px #3798df;
+    min-height: 12.3em;
+    -webkit-appearance: none;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+}
+
+.message-textarea textarea {
+    font-family: 'Prompt', sans-serif;
+    resize: none;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.55);
+    color: #000;
+    font-size: 16px;
+    outline: none;
+    padding: .6em 1em;
+    border: solid 1px #3798df;
+    min-height:1.5em;
+    -webkit-appearance: none;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+}
+.product-textarea textarea {
+    font-family: 'Prompt', sans-serif;
+    resize: none;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.55);
+    color: #000;
+    font-size: 16px;
+    outline: none;
+    padding: .6em 1em;
+    border: solid 1px #3798df;
+    min-height:1.5em;
     -webkit-appearance: none;
     transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
