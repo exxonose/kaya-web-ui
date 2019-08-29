@@ -456,7 +456,7 @@ background: url(../images/a1.jpg)no-repeat center;
 /*--service-- */
 
 .services {
-    background: url(../images/truck-2.jpg)no-repeat center;
+    background: url(../images/analysis.jpg)no-repeat center;
     background-size: cover;
 }
 
@@ -655,6 +655,11 @@ padding:0px}
 
 
 /*-- contact --*/
+
+.contact {
+    background-image: url(../images/contact-us.gif)no-repeat center;
+    background-size: cover;
+}
 
 .contact-top {
     border: 2px solid rgb(0, 0, 0);
