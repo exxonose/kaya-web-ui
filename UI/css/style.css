@@ -470,7 +470,7 @@ background: url(../images/a1.jpg)no-repeat center;
     text-align:left;
 }
 
-.banner-bottom-girds {
+.banner-bottom-grids {
     margin-bottom: 4em;
 }
 
@@ -1088,7 +1088,7 @@ h6.caption {
 .agileits-banner-grid:nth-child(3),.agileits-banner-grid:nth-child(4) {
     margin-top: 24px;
 }
-.banner-bottom-girds {
+.banner-bottom-grids {
     margin-bottom: 2em;
 }
 .service-image-grid {
@@ -1236,7 +1236,7 @@ span.banner-icon {
     line-height: 25px;
     margin: .5em auto 0em;
 }
-.banner-bottom-girds {
+.banner-bottom-grids {
     margin-bottom: 1.5em;
 }
 }
